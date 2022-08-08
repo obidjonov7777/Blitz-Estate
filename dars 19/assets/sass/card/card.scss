@@ -1,0 +1,416 @@
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 60px;
+    img{
+            width: 100%;
+        }
+    #rub{
+            width: 60%;
+            font-size: 33px;
+            line-height: 54px;
+            padding-left: 10px;
+        }
+    #w1{
+        padding-left: 10px;
+        width: 100%;
+    }
+    b{
+        padding-left: 10px;
+    }
+    button{
+        width: 100%;
+        padding: 15px 0;
+        background: #F6F6F6;
+
+        border: 2px solid #F6F6F6;
+    }
+    span{
+        padding-left: 10px; 
+    }
+    .c1{
+        display: flex;
+        // flex-direction: column;
+        width: 48%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+        span{
+            width: 29%;
+        }
+        
+    }
+    .c1:hover{
+            b{
+                color: #2A94E2;
+                transition: .5s;
+
+            }
+            button{
+                background:#2A94E2 ;
+                color: white;
+                transition: .5s;
+
+            }
+        }
+
+    .c2{
+        display: flex;
+        // flex-direction: column;
+        width: 48%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+        span{
+            width: 29%;
+        }
+        
+    }
+    .c2:hover{
+        b{
+            color: #2A94E2;
+            transition: .5s;
+
+        }
+        button{
+            background:#2A94E2 ;
+            color: white;
+            transition: .5s;
+
+
+        }
+    }
+    
+    .c3{
+        display: flex;
+        // flex-direction: column;
+        width: 48%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+        span{
+            width: 29%;
+        }
+        
+    }
+    .c3:hover{
+        b{
+            color: #2A94E2;
+            transition: .5s;
+
+        }
+        button{
+            background:#2A94E2 ;
+            color: white;
+            transition: .5s;
+
+        }
+    }
+    
+    .c4{
+        display: flex;
+        // flex-direction: column;
+        width: 48%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+        span{
+            width: 29%;
+        }
+        
+    }
+    .c4:hover{
+        b{
+            color: #2A94E2;
+            transition: .5s;
+
+        }
+        button{
+            background:#2A94E2 ;
+            color: white;
+            transition: .5s;
+
+        }
+    }
+    
+    .c5{
+        display: flex;
+        // flex-direction: column;
+        width: 48%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+        span{
+            width: 29%;
+        }
+        
+    }
+    .c5:hover{
+        b{
+            color: #2A94E2;
+            transition: .5s;
+
+        }
+        button{
+            background:#2A94E2 ;
+            color: white;
+            transition: .5s;
+
+        }
+    }
+    
+    .c6{
+        display: flex;
+        // flex-direction: column;
+        width: 48%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+        span{
+            width: 29%;
+        }
+        
+    }
+    .c6:hover{
+        b{
+            color: #2A94E2;
+            transition: .5s;
+
+        }
+        button{
+            background:#2A94E2 ;
+            color: white;
+            transition: .5s;
+
+        }
+    }
+    
+    .c7{
+        display: flex;
+        // flex-direction: column;
+        width: 48%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+        span{
+            width: 29%;
+        }
+        
+    }
+    .c7:hover{
+        b{
+            color: #2A94E2;
+            transition: .5s;
+
+        }
+        button{
+            background:#2A94E2 ;
+            color: white;
+            transition: .5s;
+
+        }
+    }
+    
+    .c8{
+        display: flex;
+        // flex-direction: column;
+        width: 48%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+        span{
+            width: 29%;
+        }
+        
+    }
+    .c8:hover{
+        b{
+            color: #2A94E2;
+            transition: .5s;
+
+        }
+        button{
+            background:#2A94E2 ;
+            color: white;
+            transition: .5s;
+
+        }
+    }
+    
+    .c9{
+        display: flex;
+        // flex-direction: column;
+        width: 48%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+        span{
+            width: 29%;
+        }
+        
+    }
+    .c9:hover{
+        b{
+            color: #2A94E2;
+            transition: .5s;
+
+        }
+        button{
+            background:#2A94E2 ;
+            color: white;
+            transition: .5s;
+
+        }
+    }
+    
+    .c10{
+        display: flex;
+        // flex-direction: column;
+        width: 48%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+        span{
+            width: 29%;
+        }
+        
+    }
+    .c10:hover{
+        b{
+            color: #2A94E2;
+            transition: .5s;
+
+        }
+        button{
+            background:#2A94E2 ;
+            color: white;
+            transition: .5s;
+
+        }
+    }
+    #v{
+        width: 10px;
+        height: 10px;
+    }
+    button:hover{
+        background:#2A94E2 ;
+        color: white;
+        transition: .5s;
+
+    }
+}
+.p2-1{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    b{
+        font-size: 35px;
+        line-height: 48px;
+    }
+    p{
+        padding-bottom: 20px;
+    }
+    .txt1{
+        width: 45%;
+        button{
+            padding: 15px 0;
+            width: 50%;
+            color: #FFFFFF;
+            background: #2A94E2;
+            border-radius: 5px;
+            border: 0;
+        }
+    }
+    .imgs{
+        display: grid;
+        grid-template-rows: 450px 100px;
+        grid-template-columns: repeat(4, 130px);
+        gap: 10px;
+        img:nth-child(1){
+            grid-row: 1/2;
+            grid-column: 1/4;
+
+        }
+        img:nth-child(2){
+            grid-row: 2/3;
+            grid-column: 1/2;
+
+        }
+        img:nth-child(3){
+            grid-row: 2/3;
+            grid-column: 2/3;
+        }
+        img:nth-child(4){
+            grid-row: 2/3;
+            grid-column: 3/4;
+        }
+        img:nth-child(5){
+            grid-row: 2/3;
+            grid-column: 4/5;
+        }
+    }
+
+}
+@media(max-width:768px){
+    .card{
+        .c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10{
+            width: 380px;
+        }
+        
+    }
+    .p2-1{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        .txt1{
+            width: 380px;
+        }
+        .imgs{
+            display: grid;
+            grid-template-rows: 320px 95px;
+            grid-template-columns: repeat(4, 90px);
+            margin: 0 auto;
+            img:nth-child(1){
+                grid-row: 1/2;
+                grid-column: 1/4;
+                width: 380px;
+            }
+            img:nth-child(2){
+                grid-row: 2/3;
+                grid-column: 1/2;
+                width: 95px;
+    
+            }
+            img:nth-child(3){
+                grid-row: 2/3;
+                grid-column: 2/3;
+                width: 95px;
+            }
+            img:nth-child(4){
+                grid-row: 2/3;
+                grid-column: 3/4;
+                width: 95px;
+
+            }
+            img:nth-child(5){
+                grid-row: 2/3;
+                grid-column: 4/5;
+                width: 95px;
+
+            }
+        }
+    }
+}

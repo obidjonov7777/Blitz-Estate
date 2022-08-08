@@ -1,0 +1,110 @@
+.p4{
+    padding-top: 40px;
+    
+    .p4-1{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        .txt{
+            width: 49%;
+            h2{
+                font-size: 35px;
+                line-height: 48px;
+            }
+            p{
+                font-size: 16px;
+                line-height: 33px;
+                padding-bottom: 20px;   
+            }
+            button{
+                background: #2A94E2;
+                border-radius: 5px;
+                color: #FFFFFF;
+                padding: 20px;
+                width: 50%;
+                border: 0;
+                
+            }
+        }
+    }
+    .p4-2{
+        width: 80%;
+        margin: 0 auto;
+        padding: 40px 0;    
+        display: flex;
+        justify-content: space-between;
+        .t1{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 28%;
+            color: white;
+            font-size: 13px;
+            line-height: 21px;
+        }
+        span:nth-child(3){
+            display: flex;
+            justify-content: space-between;
+        }
+        .logo{
+            p{
+                color: white;
+                font-size: 16px;
+                line-height: 26px;
+            }
+        }
+        .t2{
+            display: flex; 
+            flex-direction: column;
+            gap: 10px;
+            color: white;
+            span:nth-child(1){
+                font-size: 30px;
+                line-height: 49px;
+            }
+            span:nth-child(2)
+            {
+                font-size: 22px;
+                line-height: 36px;
+                text-align: center;
+                text-decoration-line: underline;
+            }
+            button{
+                background: #FFFFFF;
+                border-radius: 5px;
+                font-size: 16px;
+                line-height: 24px;
+                padding: 20px;
+                border: 0;
+            }
+        }
+    }
+}
+
+@media(max-width:768px){
+    .p4{
+        .p4-1{
+            display: flex;
+            flex-direction: column-reverse;
+            padding-bottom: 20px;
+            .txt{
+                width: 100%;
+            }
+        }
+        .p4-2{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            .t1{
+                width: 100%;
+            }
+            .logo{
+                width: 100%;    
+            }
+            .t2{
+                text-align: center;
+            }
+        }
+    }
+}

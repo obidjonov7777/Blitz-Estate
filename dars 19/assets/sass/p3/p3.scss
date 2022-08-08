@@ -1,0 +1,96 @@
+.p3{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .card{
+        display: flex;
+        
+        flex-wrap: wrap;
+        gap: 20px;
+        h5{
+            width: 100%;
+            text-align: center;
+            font-size: 35px;
+            line-height: 48px;
+            padding-bottom: 50px;
+
+        }
+        .c1{
+            width: 49%;
+            height: 280px;
+            border: 1px solid #2A94E2;
+            border-radius: 10px;
+            padding: 10px 30px;
+            h6{
+                width: 100%;
+                font-size: 22px;
+                line-height: 33px;
+            }
+            img{
+                width: 150px;
+                height: 150px;
+            }
+            .txt{
+                width: 50%;
+                span:nth-child(1){
+                    font-size: 12px;
+                    line-height: 20px;
+                    opacity: 0.5;
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: 100%;
+                }
+                span:nth-child(2){
+                    font-size: 16px;
+                    line-height: 26px;
+                }
+                span:nth-child(3){
+                    font-size: 25px;
+                    line-height: 41px;
+                }span:nth-child(4){
+                    font-size: 16px;
+                    line-height: 26px;
+
+                    text-decoration-line: underline;
+                }
+            }
+        }
+    }
+    .txt2{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+        span{
+            font-size: 22px;
+            line-height: 36px;
+            text-decoration-line: underline;
+            width: 360px;
+            color: #2A94E2;
+        }
+        span:hover{
+            text-decoration: none;
+        }
+    }
+    
+}
+@media(max-width:768px){
+    .p3{
+        .card{
+            .c1{
+                 width: 100%;
+
+                 img{
+                    width:  100px;
+                    height: 100px;
+                }
+                 .txt{
+                    span:nth-child(3){
+                        font-size: 18px;
+                        line-height: 41px;
+                    
+                        }
+                 }
+                }
+            }
+        }
+}
